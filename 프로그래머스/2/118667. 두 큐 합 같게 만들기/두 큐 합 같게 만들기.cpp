@@ -22,7 +22,7 @@ int solution(vector<int> queue1, vector<int> queue2) {
     int p1_1 = 0;
     int p2_1 = S;
     
-    while(answer <= 4*S) { // 이동 횟수 4S 넘어가면 종료
+    while(answer <= 2*S+3) { // 이동 횟수 4S 넘어가면 종료
         if(sum1 > sum2) {
             sum1 -= queue1[p1_1];
             sum2 += queue1[p1_1];
