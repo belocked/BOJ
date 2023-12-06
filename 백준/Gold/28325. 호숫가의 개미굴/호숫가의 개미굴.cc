@@ -12,7 +12,10 @@ int main()
 	cin>>tmp;
 	sum+=tmp;
 	if(tmp==0)
+	{
 		start = 1;
+		sum++;
+	}
 	pre = start;
 	for(int i=1;i<n;i++)
 	{
